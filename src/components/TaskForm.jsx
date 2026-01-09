@@ -29,9 +29,9 @@ const TaskForm = () => {
         type="text"
         value={text}
         onChange={(event) => setText(event.target.value)}
-        placeholder="Add new task"
+        placeholder="Add new to-do"
       />
-      <button id="addtask-button" type="submit">Add Task</button>
+      <button id="addtask-button" type="submit">+</button>
     </form>
   );
 }

@@ -34,7 +34,7 @@ const TaskList = () => {
         <input
           id="search-task"
           type="text"
-          placeholder="Search task"
+          placeholder="Search to-do"
           value={filter.search}
           onChange={(event) => dispatch(setSearchFilter(event.target.value))}
         />
@@ -58,7 +58,7 @@ const TaskList = () => {
         </div>
 
 
-        {filteredTask.length === 0 && <p>No tasks found.</p>}
+        {filteredTask.length === 0 && <p>No to-do's found.</p>}
         {
           filteredTask.map(task => (
             <li key={task.id} id="check-list">

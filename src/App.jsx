@@ -1,11 +1,10 @@
-import './App.css'
 import TaskForm from './components/TaskForm'
 import TaskList from './components/TaskList'
 
 function App() {
   return (
     <div id='main-header'>
-      <h1>Task Manager</h1>
+      <h1>To Do</h1>
       <TaskForm />
       <TaskList />
     </div>
